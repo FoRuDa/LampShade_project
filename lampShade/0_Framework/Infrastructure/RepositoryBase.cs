@@ -39,7 +39,7 @@ namespace _0_Framework.Infrastructure
 
         public void Save()
         {
-            throw new NotImplementedException();
+            _context.SaveChanges();
         }
     }
 }

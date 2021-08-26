@@ -24,7 +24,7 @@ namespace ShopManagement.Application
         {
             var operation = new OperationResult();
             if (_productCategoryRepository.Exists(x=>x.Name == command.Name) == true)
-                return operation.Faild("نام تکرراری است لطفا دوباره تلاش کنید.");
+                return operation.Faild(ApplicationMessages.DuplicatedRecord);
             var slug = command.Slug.Slugify();
             var productCategory = new ProductCategory(command.Name, command.Description, command.Picture,
                 command.PictureAlt,
@@ -40,9 +40,9 @@ namespace ShopManagement.Application
             var operation = new OperationResult();
             var productCategory = _productCategoryRepository.Get(command.Id);
             if (productCategory == null)
-                return operation.Faild("رکورد خالی است.");
+                return operation.Faild(ApplicationMessages.RecordNotFound);
             if (_productCategoryRepository.Exists(x => x.Name == command.Name && x.Id != command.Id))
-                return operation.Faild("امکان ثبت رکورد تکراری وجود ندارد.");
+                return operation.Faild(ApplicationMessages.DuplicatedRecord);
             var slug = command.Slug.Slugify();
             productCategory.Edit(command.Name,command.Description,command.Picture,
                 command.PictureAlt,command.PictureTitle,command.Keywords,command.MetaDescription,slug);
@@ -52,12 +52,17 @@ namespace ShopManagement.Application
 
         public EditProductCategory GetDetail(long id)
         {
-            throw new NotImplementedException();
+            return _productCategoryRepository.GetDetail(id);
         }
 
         public List<ProductCategoryViewModel> SearchModel(ProductCategorySearchModel searchModel)
         {
-            throw new NotImplementedException();
+            return _productCategoryRepository.Search(searchModel);
+        }
+
+        public List<ProductCategoryViewModel> GetProductCategories()
+        {
+            return _productCategoryRepository.GetProductCategories();
         }
     }
 }
