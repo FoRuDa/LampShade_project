@@ -1,4 +1,6 @@
-﻿using System.Reflection.Metadata.Ecma335;
+﻿using System.Collections.Generic;
+using System.Reflection.Metadata.Ecma335;
+using ShopManagement.Application.Contract.ProductCategory;
 
 namespace ShopManagement.Application.Contract.Product
 {
@@ -16,5 +18,6 @@ namespace ShopManagement.Application.Contract.Product
         public string Slug { get;  set; }
         public string Keywords { get;  set; }
         public string MetaDescription { get;  set; }
+        public List<ProductCategoryViewModel> Categories { get; set; }
     }
 }

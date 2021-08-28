@@ -13,9 +13,9 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
     public class ProductRepository : RepositoryBase<long, Product> , IProductRepository
     {
         private readonly ShopContext _context;
-        public ProductRepository(DbContext context, ShopContext context1) : base(context)
+        public ProductRepository(ShopContext context) : base(context)
         {
-            _context = context1;
+            _context = context;
         }
 
         public EditProduct GetDetails(long id)
@@ -41,7 +41,8 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
 
         public List<ProductViewModel> Search(ProductSearchModel searchModel)
         {
-            var query = _context.Products.Include(x=>x.Category).Select(x => new ProductViewModel
+            var query = _context.Products.Include(x=>x.Category)
+                .Select(x => new ProductViewModel
             {
                 Id = x.Id,
                 Name = x.Name,
@@ -49,6 +50,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Code = x.Code,
                 Picture = x.Picture,
                 UnitPrice = x.UnitPrice,
+                IsInStock = x.IsInStock,
                 categoryId=x.CategoryId,
                 CreationDate = x.CreationDate.ToString(CultureInfo.InvariantCulture)
                 

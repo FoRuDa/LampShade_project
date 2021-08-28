@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductCategoryAgg;
+using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Infrastructure.EFCore.Mapping;
 
 namespace ShopManagement.Infrastructure.EFCore
@@ -14,7 +15,7 @@ namespace ShopManagement.Infrastructure.EFCore
 
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductCategory> ProductCategories { get; set; }
-
+        public DbSet<ProductPicture> ProductPictures { get; set; }
         public ShopContext(DbContextOptions<ShopContext>options):base(options)
         {
             
@@ -23,9 +24,9 @@ namespace ShopManagement.Infrastructure.EFCore
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
-            //var assembly = typeof(ProductCategoryMapping).Assembly;
-            modelBuilder.ApplyConfiguration(new ProductCategoryMapping());
-            modelBuilder.ApplyConfiguration(new ProductMapping());
+            var assembly = typeof(ProductCategoryMapping).Assembly;
+            modelBuilder.ApplyConfigurationsFromAssembly(assembly);
+            //modelBuilder.ApplyConfiguration(new ProductMapping());
 
             base.OnModelCreating(modelBuilder);
         }
