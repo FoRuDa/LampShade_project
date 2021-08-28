@@ -167,3 +167,6 @@ C:\Users\FoRuD\Desktop\LampShade\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Ar
 C:\Users\FoRuD\Desktop\LampShade\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Shop\Products\Create.cshtml.g.cs
 C:\Users\FoRuD\Desktop\LampShade\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Shop\Products\Edit.cshtml.g.cs
 C:\Users\FoRuD\Desktop\LampShade\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Shop\Products\Index.cshtml.g.cs
+C:\Users\FoRuD\Desktop\LampShade\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Shop\ProductPicture\Create.cshtml.g.cs
+C:\Users\FoRuD\Desktop\LampShade\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Shop\ProductPicture\Edit.cshtml.g.cs
+C:\Users\FoRuD\Desktop\LampShade\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Shop\ProductPicture\Index.cshtml.g.cs

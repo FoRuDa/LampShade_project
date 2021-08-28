@@ -15,6 +15,11 @@ namespace ShopManagement.Application
             _productRepository = productRepository;
         }
 
+        public List<ProductViewModel> GetProducts()
+        {
+            return _productRepository.GetProducts();
+        }
+
         public OperationResult Create(CreateProduct command)
         {
             var operation = new OperationResult();

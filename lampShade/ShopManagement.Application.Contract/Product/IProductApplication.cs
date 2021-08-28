@@ -5,7 +5,7 @@ namespace ShopManagement.Application.Contract.Product
 {
     public interface IProductApplication
     {
-
+        List<ProductViewModel> GetProducts();
         OperationResult Create(CreateProduct command);
         OperationResult Edit(EditProduct command);
         EditProduct GetDetails(long id);
