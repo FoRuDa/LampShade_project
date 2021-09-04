@@ -70,7 +70,7 @@
         swal({   
             title: "Sweet!",   
             text: "Here's a custom image.",   
-            imageUrl: "assets/sweet-alert/thumbs-up.jpg" 
+            imageUrl: "~/Theme/assets/sweet-alert/thumbs-up.jpg" 
         });
     });
 

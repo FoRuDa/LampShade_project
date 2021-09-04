@@ -21,3 +21,5 @@ C:\Users\FoRuD\Desktop\LampShade\LampShade\ShopManagement.Configuration\obj\Debu
 C:\Users\FoRuD\Desktop\LampShade\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.dll
 C:\Users\FoRuD\Desktop\LampShade\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\ref\ShopManagement.Configuration.dll
 C:\Users\FoRuD\Desktop\LampShade\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.pdb
+C:\Users\FoRuD\Desktop\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\01_LampShadeQuery.dll
+C:\Users\FoRuD\Desktop\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\01_LampShadeQuery.pdb

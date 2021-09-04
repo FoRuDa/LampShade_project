@@ -24,6 +24,7 @@
 
     <!-- Waves-effect -->
     <link href="~/AdminTheme/assets/css/waves-effect.css" rel="stylesheet">
+    <link href="~/AdminTheme/assets/css/persian-datepicker.min.css" rel="stylesheet">
     
     <link href="~/AdminTheme/assets/datatables/jquery.dataTables.min.css" rel="stylesheet" type="text/css" />
 
@@ -137,7 +138,7 @@
                                 <a href="#" class="right-bar-toggle waves-effect waves-light"><i class="md md-chat"></i></a>
                             </li>
                             <li class="dropdown">
-                                <a href="" class="dropdown-toggle profile" data-toggle="dropdown" aria-expanded="true"><img src="assets/images/avatar-1.jpg" alt="user-img" class="img-circle"> </a>
+                                <a href="" class="dropdown-toggle profile" data-toggle="dropdown" aria-expanded="true"><img src="~/Theme/assets/images/avatar-1.jpg" alt="user-img" class="img-circle"> </a>
                                 <ul class="dropdown-menu">
                                     <li><a href="javascript:void(0)"><i class="md md-face-unlock"></i> Profile</a></li>
                                     <li><a href="javascript:void(0)"><i class="md md-settings"></i> Settings</a></li>
@@ -237,12 +238,20 @@
     <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
 
     <script src="~/AdminTheme/assets/js/site.js"></script>
-
     <script src="~/AdminTheme/assets/js/persian-date.min.js"></script>
     <script src="~/AdminTheme/assets/js/persian-datepicker.min.js"></script>
 
-    @RenderSection("Scripts", false)
 
+
+    @RenderSection("Scripts", false)
+<script>
+    $('.persianDateInput').persianDatepicker({
+      
+        format: 'YYYY/MM/DD',
+        autoClose : true
+     
+    });
+</script>
     @*<script>
         $('.persianDateInput').persianDatepicker({
             format: 'YYYY/MM/DD',
