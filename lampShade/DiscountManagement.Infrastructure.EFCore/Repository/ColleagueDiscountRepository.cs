@@ -25,7 +25,7 @@ namespace DiscountManagement.Infrastructure.EFCore.Repository
         {
             return _context.ColleagueDiscounts.Select(x => new EditColleagueDiscount
             {
-
+                Id = x.Id,
                 ProductId = x.ProductId,
                 DiscountRate = x.DiscountRate,
 
@@ -41,7 +41,8 @@ namespace DiscountManagement.Infrastructure.EFCore.Repository
                 Id = x.Id,
                 CreationDate = x.CreationDate.ToFarsi(),
                 DiscountRate = x.DiscountRate,
-                ProductId = x.ProductId
+                ProductId = x.ProductId,
+                IsRemove = x.IsRemove
             });
             if (searchModel.ProductId > 0)
 

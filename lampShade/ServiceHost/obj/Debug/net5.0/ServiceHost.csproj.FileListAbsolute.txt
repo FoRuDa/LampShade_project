@@ -192,3 +192,6 @@ C:\Users\FoRuD\Desktop\LampShade\LampShade\ServiceHost\bin\Debug\net5.0\Discount
 C:\Users\FoRuD\Desktop\LampShade\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Discount\CustomerDiscount\Create.cshtml.g.cs
 C:\Users\FoRuD\Desktop\LampShade\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Discount\CustomerDiscount\Edit.cshtml.g.cs
 C:\Users\FoRuD\Desktop\LampShade\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Discount\CustomerDiscount\Index.cshtml.g.cs
+C:\Users\FoRuD\Desktop\LampShade\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Discount\ColleagueDIscount\Create.cshtml.g.cs
+C:\Users\FoRuD\Desktop\LampShade\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Discount\ColleagueDIscount\Edit.cshtml.g.cs
+C:\Users\FoRuD\Desktop\LampShade\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Discount\ColleagueDIscount\Index.cshtml.g.cs
