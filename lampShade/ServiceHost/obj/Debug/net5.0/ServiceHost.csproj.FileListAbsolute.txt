@@ -195,3 +195,13 @@ C:\Users\FoRuD\Desktop\LampShade\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Ar
 C:\Users\FoRuD\Desktop\LampShade\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Discount\ColleagueDIscount\Create.cshtml.g.cs
 C:\Users\FoRuD\Desktop\LampShade\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Discount\ColleagueDIscount\Edit.cshtml.g.cs
 C:\Users\FoRuD\Desktop\LampShade\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Admin\Pages\Discount\ColleagueDIscount\Index.cshtml.g.cs
+C:\Users\FoRuD\Desktop\LampShade\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+C:\Users\FoRuD\Desktop\LampShade\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.dll
+C:\Users\FoRuD\Desktop\LampShade\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Domain.dll
+C:\Users\FoRuD\Desktop\LampShade\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.dll
+C:\Users\FoRuD\Desktop\LampShade\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
+C:\Users\FoRuD\Desktop\LampShade\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.pdb
+C:\Users\FoRuD\Desktop\LampShade\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.pdb
+C:\Users\FoRuD\Desktop\LampShade\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+C:\Users\FoRuD\Desktop\LampShade\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Domain.pdb
+C:\Users\FoRuD\Desktop\LampShade\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
