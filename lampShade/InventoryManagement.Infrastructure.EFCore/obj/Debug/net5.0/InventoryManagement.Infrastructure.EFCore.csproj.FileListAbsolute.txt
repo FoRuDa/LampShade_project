@@ -20,3 +20,9 @@ C:\Users\FoRuD\Desktop\LampShade\LampShade\InventoryManagement.Infrastructure.EF
 C:\Users\FoRuD\Desktop\LampShade\LampShade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\ref\InventoryManagement.Infrastructure.EFCore.dll
 C:\Users\FoRuD\Desktop\LampShade\LampShade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
 C:\Users\FoRuD\Desktop\LampShade\LampShade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.genruntimeconfig.cache
+C:\Users\FoRuD\Desktop\LampShade\LampShade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Application.Contract.dll
+C:\Users\FoRuD\Desktop\LampShade\LampShade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Application.Contract.pdb
+C:\Users\FoRuD\Desktop\LampShade\LampShade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Domain.dll
+C:\Users\FoRuD\Desktop\LampShade\LampShade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.dll
+C:\Users\FoRuD\Desktop\LampShade\LampShade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.pdb
+C:\Users\FoRuD\Desktop\LampShade\LampShade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Domain.pdb

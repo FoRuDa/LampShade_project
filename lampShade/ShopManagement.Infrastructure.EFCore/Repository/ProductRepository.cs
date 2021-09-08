@@ -1,18 +1,16 @@
 ﻿using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
 using _0_Framework.Application;
-using _0_Framework.Domain;
 using _0_Framework.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contract.Product;
 using ShopManagement.Domain.ProductAgg;
-using ShopManagement.Domain.ProductCategoryAgg;
 
 namespace ShopManagement.Infrastructure.EFCore.Repository
 {
     public class ProductRepository : RepositoryBase<long, Product> , IProductRepository
     {
+      
         private readonly ShopContext _context;
         public ProductRepository(ShopContext context) : base(context)
         {
@@ -35,7 +33,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle,
                 MetaDescription = x.MetaDescription,
-                UnitPrice = x.UnitPrice
+               
                 
             }).FirstOrDefault(x => x.Id == id);
         }
@@ -59,8 +57,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Category = x.Category.Name,
                 Code = x.Code,
                 Picture = x.Picture,
-                UnitPrice = x.UnitPrice,
-                IsInStock = x.IsInStock,
+               
                 categoryId=x.CategoryId,
                 CreationDate = x.CreationDate.ToFarsi()
                 
@@ -77,5 +74,9 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
 
             return query.OrderByDescending(x=>x.Id).ToList();
         }
+    }
+
+    internal class InventoryContext
+    {
     }
 }

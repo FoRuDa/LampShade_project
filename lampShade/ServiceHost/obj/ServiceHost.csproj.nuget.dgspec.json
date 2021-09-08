@@ -797,6 +797,9 @@
             "projectReferences": {
               "C:\\Users\\FoRuD\\Desktop\\LampShade\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
                 "projectPath": "C:\\Users\\FoRuD\\Desktop\\LampShade\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
+              },
+              "C:\\Users\\FoRuD\\Desktop\\LampShade\\LampShade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "C:\\Users\\FoRuD\\Desktop\\LampShade\\LampShade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -877,6 +880,9 @@
             "projectReferences": {
               "C:\\Users\\FoRuD\\Desktop\\LampShade\\LampShade\\0_Framework\\0_Framework.csproj": {
                 "projectPath": "C:\\Users\\FoRuD\\Desktop\\LampShade\\LampShade\\0_Framework\\0_Framework.csproj"
+              },
+              "C:\\Users\\FoRuD\\Desktop\\LampShade\\LampShade\\ShopManagement.Application.Contract\\ShopManagement.Application.Contract.csproj": {
+                "projectPath": "C:\\Users\\FoRuD\\Desktop\\LampShade\\LampShade\\ShopManagement.Application.Contract\\ShopManagement.Application.Contract.csproj"
               }
             }
           }

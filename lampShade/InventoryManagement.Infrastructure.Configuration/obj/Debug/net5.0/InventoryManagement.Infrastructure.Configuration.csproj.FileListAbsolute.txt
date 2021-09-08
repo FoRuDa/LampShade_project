@@ -21,3 +21,9 @@ C:\Users\FoRuD\Desktop\LampShade\LampShade\InventoryManagement.Infrastructure.Co
 C:\Users\FoRuD\Desktop\LampShade\LampShade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.dll
 C:\Users\FoRuD\Desktop\LampShade\LampShade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\ref\InventoryManagement.Infrastructure.Configuration.dll
 C:\Users\FoRuD\Desktop\LampShade\LampShade\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.pdb
+C:\Users\FoRuD\Desktop\LampShade\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\ShopManagement.Application.Contract.dll
+C:\Users\FoRuD\Desktop\LampShade\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\ShopManagement.Application.Contract.pdb
+C:\Users\FoRuD\Desktop\LampShade\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\ShopManagement.Domain.dll
+C:\Users\FoRuD\Desktop\LampShade\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.dll
+C:\Users\FoRuD\Desktop\LampShade\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\ShopManagement.Domain.pdb
+C:\Users\FoRuD\Desktop\LampShade\LampShade\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.pdb

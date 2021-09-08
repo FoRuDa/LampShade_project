@@ -13,3 +13,5 @@ C:\Users\FoRuD\Desktop\LampShade\LampShade\InventoryManagenemt.Application.Contr
 C:\Users\FoRuD\Desktop\LampShade\LampShade\InventoryManagenemt.Application.Contract\obj\Debug\net5.0\InventoryManagement.Application.Contract.dll
 C:\Users\FoRuD\Desktop\LampShade\LampShade\InventoryManagenemt.Application.Contract\obj\Debug\net5.0\ref\InventoryManagement.Application.Contract.dll
 C:\Users\FoRuD\Desktop\LampShade\LampShade\InventoryManagenemt.Application.Contract\obj\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+C:\Users\FoRuD\Desktop\LampShade\LampShade\InventoryManagenemt.Application.Contract\bin\Debug\net5.0\ShopManagement.Application.Contract.dll
+C:\Users\FoRuD\Desktop\LampShade\LampShade\InventoryManagenemt.Application.Contract\bin\Debug\net5.0\ShopManagement.Application.Contract.pdb
