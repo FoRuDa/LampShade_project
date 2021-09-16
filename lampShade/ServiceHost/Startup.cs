@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using _0_Framework.Application;
 using DiscountManagement.Configuration;
 using InventoryManagement.Infrastructure.Configuration;
 using ShopManagement.Configuration;
@@ -32,6 +33,7 @@ namespace ServiceHost
             ShopBootstrapper.Config(services, connectionString);
             DiscountBootstrap.Configure(services, connectionString);
             InventoryBootstrap.Configure(services, connectionString);
+            services.AddTransient<IFileUploader, FileUploader>();
             services.AddRazorPages();
         }
 

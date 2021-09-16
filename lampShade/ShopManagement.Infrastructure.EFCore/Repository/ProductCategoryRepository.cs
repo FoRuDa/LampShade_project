@@ -41,7 +41,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 MetaDescription = x.MetaDescription,
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle,
-                Picture = x.Picture,
+                // Picture = x.Picture,
                 Slug = x.Slug
             }).FirstOrDefault(x => x.Id == id);
         }

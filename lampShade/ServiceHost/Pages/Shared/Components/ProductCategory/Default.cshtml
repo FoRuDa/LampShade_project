@@ -1,12 +1,10 @@
 ﻿@model List<_01_LampShadeQuery.Contract.ProductCategory.ProductCategoryQueryModel>
 
 
-<!--====================  category area ====================-->
 <div class="category-area section-space">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <!--=======  category wrapper  =======-->
                 <div class="category-wrapper">
                     <div class="row row-10 masonry-category-layout">
 
@@ -15,11 +13,11 @@
                         {
 
                         <div class="col-lg-4 col-sm-6 grid-item">
-                            <!--=======  single category item  =======-->
+                      
                             <div class="single-category-item">
                                 <div class="single-category-item__image">
                                     <a asp-page="/ProductCategory" asp-route-id="@productCategory.Slug">
-                                        <img src="@productCategory.Picture" title="@productCategory.PictureTitle" class="img-fluid" alt="@productCategory.PictureAlt">
+                                        <img src="~/productPicture/@productCategory.Picture" title="@productCategory.PictureTitle" class="img-fluid" alt="@productCategory.PictureAlt">
                                     </a>
                                 </div>
                                 <div class="single-category-item__content">
@@ -29,16 +27,14 @@
                                     </a>
                                 </div>
                             </div>
-                            <!--=======  End of single category item  =======-->
+                       
                         </div>
 
                         }
 
                     </div>
                 </div>
-                <!--=======  End of category wrapper  =======-->
             </div>
         </div>
     </div>
 </div>
-<!--====================  End of category area  ====================-->

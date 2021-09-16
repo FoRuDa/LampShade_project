@@ -19,3 +19,15 @@ C:\Users\FoRuD\Desktop\LampShade\LampShade\01_LampeShadeQuery\bin\Debug\net5.0\0
 C:\Users\FoRuD\Desktop\LampShade\LampShade\01_LampeShadeQuery\bin\Debug\net5.0\ShopManagement.Application.Contract.pdb
 C:\Users\FoRuD\Desktop\LampShade\LampShade\01_LampeShadeQuery\bin\Debug\net5.0\ShopManagement.Domain.pdb
 C:\Users\FoRuD\Desktop\LampShade\LampShade\01_LampeShadeQuery\obj\Debug\net5.0\01_LampShadeQuery.csproj.CopyComplete
+C:\Users\FoRuD\Desktop\LampShade\LampShade\01_LampeShadeQuery\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+C:\Users\FoRuD\Desktop\LampShade\LampShade\01_LampeShadeQuery\bin\Debug\net5.0\InventoryManagement.Domain.dll
+C:\Users\FoRuD\Desktop\LampShade\LampShade\01_LampeShadeQuery\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
+C:\Users\FoRuD\Desktop\LampShade\LampShade\01_LampeShadeQuery\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
+C:\Users\FoRuD\Desktop\LampShade\LampShade\01_LampeShadeQuery\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+C:\Users\FoRuD\Desktop\LampShade\LampShade\01_LampeShadeQuery\bin\Debug\net5.0\InventoryManagement.Domain.pdb
+C:\Users\FoRuD\Desktop\LampShade\LampShade\01_LampeShadeQuery\bin\Debug\net5.0\DiscountManagement.Application.Contract.dll
+C:\Users\FoRuD\Desktop\LampShade\LampShade\01_LampeShadeQuery\bin\Debug\net5.0\DiscountManagement.Domain.dll
+C:\Users\FoRuD\Desktop\LampShade\LampShade\01_LampeShadeQuery\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.dll
+C:\Users\FoRuD\Desktop\LampShade\LampShade\01_LampeShadeQuery\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
+C:\Users\FoRuD\Desktop\LampShade\LampShade\01_LampeShadeQuery\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
+C:\Users\FoRuD\Desktop\LampShade\LampShade\01_LampeShadeQuery\bin\Debug\net5.0\DiscountManagement.Domain.pdb

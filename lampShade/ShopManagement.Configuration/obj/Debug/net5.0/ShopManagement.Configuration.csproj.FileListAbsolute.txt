@@ -23,3 +23,15 @@ C:\Users\FoRuD\Desktop\LampShade\LampShade\ShopManagement.Configuration\obj\Debu
 C:\Users\FoRuD\Desktop\LampShade\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.pdb
 C:\Users\FoRuD\Desktop\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\01_LampShadeQuery.dll
 C:\Users\FoRuD\Desktop\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\01_LampShadeQuery.pdb
+C:\Users\FoRuD\Desktop\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+C:\Users\FoRuD\Desktop\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Domain.dll
+C:\Users\FoRuD\Desktop\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
+C:\Users\FoRuD\Desktop\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+C:\Users\FoRuD\Desktop\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Domain.pdb
+C:\Users\FoRuD\Desktop\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
+C:\Users\FoRuD\Desktop\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Application.Contract.dll
+C:\Users\FoRuD\Desktop\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Domain.dll
+C:\Users\FoRuD\Desktop\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.dll
+C:\Users\FoRuD\Desktop\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
+C:\Users\FoRuD\Desktop\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Domain.pdb
+C:\Users\FoRuD\Desktop\LampShade\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
